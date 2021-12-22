@@ -1,0 +1,30 @@
+const amount = document.getElementById("amount");
+  const guests = document.getElementById("guests");
+  const quality = document.getElementById("quality");
+  const tipAmount = document.getElementById("tip-amount");
+
+calculate = () => { //using arrow function
+  const tip = ((amount.value * quality.value) / (guests.value)).toFixed(2); // .toFixed(2) = return only 2 decimal places
+  if(tip === "NaN"){
+    tipAmount.innerHTML = "Tip $0 each";
+    showTipAmount();
+  }
+  else{
+    tipAmount.innerHTML = "Tip $" + tip + " each";
+    showTipAmount(); // if input fields are filled out correctly, this will display the amount each person owes.
+  }
+}
+
+showTipAmount = () => {
+  // Get the snackbar DIV
+  var x = document.getElementById("tip-amount");
+  // Add the "show" class to DIV
+  x.className = "show";
+  // After 3 seconds, remove the show class from DIV
+  setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+}
+/* 
+{ x.className = x.className.replace("show", "") will replaced show w/ an empty string
+
+3000 milliseconds = 3 secs
+*/

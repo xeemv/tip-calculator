@@ -48,7 +48,7 @@ body{
 }
 .calculator input{ /* where user input their amount and number of guest*/
     box-sizing: border-box;
-    width: 70%; /* tutorial used 90% but that would cover img*/
+    width: 90%; /* tutorial used 90% but that would cover img*/
     padding: 8px;
     outline: none;
     border-radius: 5px;
@@ -57,7 +57,7 @@ body{
     border-bottom-left-radius: 0;
 }
 .calculator button {
-    width: 20%; /* tutorial used 10% but that would cover img */
+    width: 10%; /* tutorial used 10% but that would cover img */
     padding: 8px;
     outline: none;
     cursor: pointer;
@@ -82,7 +82,7 @@ body{
    visibility: hidden; /* as mentioned, amoutn will be hidden ---- be sure to comment out while working on it then uncomment when completed or else you will be unable to see what you are doing (from code line 82-90)!!!! */ 
    min-width: 250px;
    margin: auto;
-   background-color: limegreen;
+   background-color: rgb(200, 50, 205);
    color: white; /* color of the text  */
    bottom: 30px;
    text-align: center;

@@ -1,11 +1,21 @@
 body{
     height: 100vh;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-image: url(./images/restaurant.png);
+    background-image: url(./images/restaurant.png); /* line 4 - 9 are of my own choosing and not the tutorial*/
     background-size: cover; /*This property/value pair tells the browser to scale the background image proportionally so that its width and height are equal to, or greater than, the width/height of the element. - Per https://www.webfx.com/blog/web-design/responsive-background-image/ */
-    background-position-x: center;
-    background-position-y: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+    background-position-x: center; /*incase the img gets scaled up and get distorted (height and width), this will keep it center*/
+    background-position-y: center; /*incase the img gets scaled up and get distorted (height and width), this will keep it center*/
+    background-attachment: fixed; /*to prevent the photo from scrolling on the page or img ending before page does*/
+    background-repeat: no-repeat; /*to prevent the photo from repeating on the screen*/
 }
-    
+
+.container{
+    border: 1px solid black;
+
+    width: 95%;
+    height: 100vh;
+    margin: auto;
+    display: flex; /*this will make the container a flex box */
+    justify-content: center; /*this will make the bill amount and contents all center w/in this first container box */
+    align-items: center;
+}

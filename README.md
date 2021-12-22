@@ -106,6 +106,7 @@ See the [open issues](https://github.com/github_username/repo_name/issues) for a
 
 Followed a YouTube tutorial created by codefoxx. This tutorial is called "#10 of 25 Beginner Projects - HTML, CSS, & JavaScript - Tip Calculator ( Responsive Design )".
 - [codefoxx](https://www.youtube.com/watch?v=I4tNOpNIU5Q)
+- [codefoxx]<a href="https://github.com/iamcodefoxx/TipCalculator">codefoxx's github repo.</a>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 

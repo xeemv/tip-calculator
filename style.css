@@ -94,4 +94,19 @@ body{
     -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s; /* we are setting the animation to fade in for 5sec and when fade out, it will be for 5sec*/
     animation: fadein 0.5s, fadeout 0.5s 2.5s; /* this is a fall back setting to account for other browsers*/
 }
-
+@-webkit-keyframes fadein{   /* creating the animations - fadein */
+    from{bottom:0; opacity: 0;} /* it will start off at zero opacity = not going to display  */
+    to {bottom: 30px; opacity: 1;} /* it will then go all the way to 30 pixels from the bottomw and it is going to display. */
+}
+@keyframes fadeint{   /* creating the animations - fadein */
+    from{bottom:0; opacity: 0;} /* it will start off at zero opacity = not going to display  */
+    to {bottom: 30px; opacity: 1;} /* it will then go all the way to 30 pixels from the bottomw and it is going to display. */
+}
+@-webkit-keyframes fadein{   /* creating the animations - fadein */
+    from{bottom:0; opacity: 0;} /* it will start off at zero opacity = not going to display  */
+    to {bottom: 30px; opacity: 1;} /* it will then go all the way to 30 pixels from the bottomw and it is going to display. */
+}
+@keyframes fadeint{   /* creating the animations - fadein */
+    from{bottom:0; opacity: 0;} /* it will start off at zero opacity = not going to display  */
+    to {bottom: 30px; opacity: 1;} /* it will then go all the way to 30 pixels from the bottomw and it is going to display. */
+}

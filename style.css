@@ -92,7 +92,7 @@ body{
 }
 #tip-amount.show{ /* this a class part that will need js. We only want it to display when the user is ready to calculate the tip amount. Will need to create 2 animations as well. */
     visibility: visible;
-    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s; /* we are setting the animation to fade in for 5sec and when fade out, it will be for 5sec. However, delay the fade out by 2.5 sec.*/
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s; /* we are setting the animation to fade in for 5sec and when fade out, it will be for 5sec. However, delay the fade out by 5 sec.*/
     animation: fadein 0.5s, fadeout 0.5s 5s; /* this is a fall back setting to account for other browsers*/
 }
 @-webkit-keyframes fadein{   /* creating the animations - fadein */

@@ -106,7 +106,7 @@ See the [open issues](https://github.com/github_username/repo_name/issues) for a
 
 Followed a YouTube tutorial created by codefoxx. This tutorial is called "#10 of 25 Beginner Projects - HTML, CSS, & JavaScript - Tip Calculator ( Responsive Design )".
 - [codefoxx](https://www.youtube.com/watch?v=I4tNOpNIU5Q)
-- [codefoxx]<a href="https://github.com/iamcodefoxx/TipCalculator">codefoxx's github repo.</a>
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -140,6 +140,7 @@ Project Link: [https://github.com/xeemv/tip-calculator](https://xeemv.github.io/
 * <a href="https://webplatform.github.io/docs/css/functions/url/">CSS images: url() - WebPlateforms Doc</a>
 * <a href="https://www.webfx.com/blog/web-design/responsive-background-image/">CSS How to Create a Responsive Full Background Image Using CSS [Tutorial]</a>
 * <a href="https://www.youtube.com/watch?v=I4tNOpNIU5Q">codefoxx's YouTube tutorial: #10 of 25 Beginner Projects - HTML, CSS, & JavaScript - Tip Calculator ( Responsive Design )</a>
+* <a href="https://github.com/iamcodefoxx/TipCalculator">codefoxx's github repo.</a>
 * <a href="http://mattkersley.com/responsive/">Responsive Web Design Testing Tool</a>
 * []()
 * []()

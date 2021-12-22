@@ -37,7 +37,7 @@ body{
 }
 .calculator{ /* this is the calculator box */
     border: 1px solid rgb(17, 13, 44);
-    background-color: rgb(237, 226, 240); /* might consider making this box transparent...debating*/
+    background-color: rgb(206, 194, 209); /* might consider making this box transparent...debating*/
     border-radius: 5px;
     width: 400px; /* tutorial used 400px */
     margin: auto; /* this will place it in the middle */
@@ -70,10 +70,22 @@ body{
 .calculator button:hover{ /* hover effect*/
     background-color: rgba(0, 0, 0, 0.1); /* this will change the button's color when you hover over it*/
 }
-#quality{
+#quality{ /* this is the input box */
     width: 100%;
     padding: 8px;
     outline: none;
     border-radius: 5px;
     border: 1px solid lightgray;
+}
+#tip-amount { /* the container that holds the message that pops up when user select calculate -- display how much you hold. We will want to hide it untill it is need to display the amount. */
+   visibility: hidden; /* as mentioned, amoutn will be hidden ---- be sure to comment out while working on it then uncomment when completed or else you will be unable to see what you are doing (from code line 82-90)!!!! */ 
+   min-width: 250px;
+   margin: auto;
+   background-color: limegreen;
+   color: white; /* color of the text  */
+   bottom: 30px;
+   text-align: center;
+   border-radius: 2px;
+   padding: 16px;
+   position: fixed; /* when visibility is commented out, you should see the limegreen bar at the bottom of the page that is outside of the tip calculator container. At this point, ok to uncomment and hide the lime green bar. */
 }

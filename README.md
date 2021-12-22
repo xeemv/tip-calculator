@@ -121,7 +121,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!--Motivation -->
 ## Motivation
 
-I'm currently in week 4 of my front-end software coding bootcamp and found this project to help re-enforce the course materials.
+I'm currently in week 4 of my front-end software coding bootcamp and found this project to help re-enforce the course materials by codefoxx on YouTube, created on April 3rd, 2021.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 

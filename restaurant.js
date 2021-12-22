@@ -24,7 +24,8 @@ showTipAmount = () => {
   setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
 }
 /* 
-{ x.className = x.className.replace("show", "") will replaced show w/ an empty string
-
-3000 milliseconds = 3 secs
+- { x.className = x.className.replace("show", "") will replaced show w/ an empty string
+- do not include a comma in the dollar amount.
+- can use a period for cents.
+-3000 milliseconds = 3 secs
 */

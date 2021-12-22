@@ -26,7 +26,7 @@
   </ol>
 </details>
 <!-- ABOUT THE PROJECT -->
-## About The Project
+### About The Project
 
 Personal tip calculator project to re-enforce JavaScript learning from bootcamp.
 

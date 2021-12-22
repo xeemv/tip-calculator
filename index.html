@@ -24,9 +24,15 @@
             <button><img src="./images/user.png"></button><input id="guests" type="text"> <!-- second input box for the number of guest and guest icon included (size is 50px)  -->
             <br>
             <br>
-            <label for="quality">Service Quality</label> <!----->
+            <label for="quality">Service Quality</label> <!-- selection for how service was --->
             <br>
-
+            <select id="quality"></select> <!-- create a selection for how service was in a drop down list style with 5 options --->
+                <option disabled selected value="0">Choose...</option> <!-- these are the choices for the user to pick from-->
+                <option value="0.3">30% - Outstanding</option> <!--this option means that the service was outstanding - highest possible choice-->
+                <option value="0.2">20% - Outstanding</option> <!--this option means that the service was outstanding - highest possible choice-->
+                <option value="0.15">15% - Outstanding</option> <!--this option means that the service was outstanding - highest possible choice-->
+                <option value="0.10">10% - Outstanding</option> <!--this option means that the service was outstanding - highest possible choice-->
+                <option value="0.5">5% - Outstanding</option> <!--this option means that the service was outstanding - highest possible choice-->
         </div>
     </div>
 

@@ -18,16 +18,16 @@ body{
     justify-content: center; /*this will make the bill amount and contents all center w/in this first container box */
     align-items: center;
 }
-#icon{
+#icon{ /* took this from my other project login-form */
     width: 30px;
     cursor: pointer;
     position: relative;
 }
-.social-icons{
+.social-icons{ /* took this from my other project login-form */
     margin: 30px auto;
     text-align: center;
 }
-.social-icons img{
+.social-icons img{ /* took this from my other project login-form */
     width: 30px auto;
     margin: 0 12px;
     text-align: center;
@@ -89,3 +89,9 @@ body{
    padding: 16px;
    position: fixed; /* when visibility is commented out, you should see the limegreen bar at the bottom of the page that is outside of the tip calculator container. At this point, ok to uncomment and hide the lime green bar. */
 }
+#tip-amount.show{ /* this a class part that will need js. We only want it to display when the user is ready to calculate the tip amount. Will need to create 2 animations as well. */
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s; /* we are setting the animation to fade in for 5sec and when fade out, it will be for 5sec*/
+    animation: fadein 0.5s, fadeout 0.5s 2.5s; /* this is a fall back setting to account for other browsers*/
+}
+

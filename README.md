@@ -20,7 +20,7 @@
     <!--<li><a href="#roadmap">Roadmap</a></li>-->
     <li><a href="#credits">Credits</a></li>
     <!--<li><a href="#license">License</a></li>-->
-    <li><a href="#motivation and Learning">Motivation and Learning</a></li>
+    <li><a href="#motivation">Motivation</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>

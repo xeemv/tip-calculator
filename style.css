@@ -8,7 +8,6 @@ body{
     background-attachment: fixed; /*to prevent the photo from scrolling on the page or img ending before page does*/
     background-repeat: no-repeat; /*to prevent the photo from repeating on the screen*/
 }
-
 .container{
     border: 1px solid black;
 
@@ -18,4 +17,21 @@ body{
     display: flex; /*this will make the container a flex box */
     justify-content: center; /*this will make the bill amount and contents all center w/in this first container box */
     align-items: center;
+}
+#icon{
+    width: 30px;
+    cursor: pointer;
+    position: relative;
+}
+.social-icons{
+    margin: 30px auto;
+    text-align: center;
+}
+.social-icons img{
+    width: 30px auto;
+    margin: 0 12px;
+    text-align: center;
+    box-shadow: 0 0 20px 9 var(#212121);
+    cursor: pointer;
+    border-radius: 50%;
 }

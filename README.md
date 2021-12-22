@@ -26,6 +26,7 @@
   </ol>
 </details>
 <!-- ABOUT THE PROJECT -->
+
 ### About The Project
 
 Personal tip calculator project to re-enforce JavaScript learning from bootcamp.
@@ -117,7 +118,8 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>-->
 
-## Motivation and Learning
+<!--Motivation -->
+## Motivation
 
 I'm currently in week 4 of my front-end software coding bootcamp and found this project to help re-enforce the course materials.
 

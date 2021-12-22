@@ -138,6 +138,8 @@ Project Link: [https://github.com/xeemv/tip-calculator](https://xeemv.github.io/
 
 * <a href="https://webplatform.github.io/docs/css/functions/url/">CSS images: url() - WebPlateforms Doc</a>
 * <a href="https://www.webfx.com/blog/web-design/responsive-background-image/">CSS How to Create a Responsive Full Background Image Using CSS [Tutorial]</a>
+* <a href="https://www.youtube.com/watch?v=I4tNOpNIU5Q">codefoxx's YouTube tutorial: #10 of 25 Beginner Projects - HTML, CSS, & JavaScript - Tip Calculator ( Responsive Design )</a>
+* <a href="http://mattkersley.com/responsive/">Responsive Web Design Testing Tool</a>
 * []()
 * []()
 

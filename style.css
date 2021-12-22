@@ -9,7 +9,7 @@ body{
     background-repeat: no-repeat; /*to prevent the photo from repeating on the screen*/
 }
 .container{
-    border: 1px solid black;
+    /* border: 1px solid black; */
 
     width: 95%;
     height: 100vh;
@@ -77,6 +77,7 @@ body{
     border-radius: 5px;
     border: 1px solid lightgray;
 }
+/* The snackbar - position it at the bottom and in the middle of the screen */
 #tip-amount { /* the container that holds the message that pops up when user select calculate -- display how much you hold. We will want to hide it untill it is need to display the amount. */
    visibility: hidden; /* as mentioned, amoutn will be hidden ---- be sure to comment out while working on it then uncomment when completed or else you will be unable to see what you are doing (from code line 82-90)!!!! */ 
    min-width: 250px;
@@ -91,22 +92,54 @@ body{
 }
 #tip-amount.show{ /* this a class part that will need js. We only want it to display when the user is ready to calculate the tip amount. Will need to create 2 animations as well. */
     visibility: visible;
-    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s; /* we are setting the animation to fade in for 5sec and when fade out, it will be for 5sec*/
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s; /* we are setting the animation to fade in for 5sec and when fade out, it will be for 5sec. However, delay the fade out by 2.5 sec.*/
     animation: fadein 0.5s, fadeout 0.5s 2.5s; /* this is a fall back setting to account for other browsers*/
 }
 @-webkit-keyframes fadein{   /* creating the animations - fadein */
     from{bottom:0; opacity: 0;} /* it will start off at zero opacity = not going to display  */
     to {bottom: 30px; opacity: 1;} /* it will then go all the way to 30 pixels from the bottomw and it is going to display. */
 }
-@keyframes fadeint{   /* creating the animations - fadein */
+@keyframes fadein{   /* creating the animations - fadein */
     from{bottom:0; opacity: 0;} /* it will start off at zero opacity = not going to display  */
     to {bottom: 30px; opacity: 1;} /* it will then go all the way to 30 pixels from the bottomw and it is going to display. */
 }
-@-webkit-keyframes fadein{   /* creating the animations - fadein */
-    from{bottom:0; opacity: 0;} /* it will start off at zero opacity = not going to display  */
-    to {bottom: 30px; opacity: 1;} /* it will then go all the way to 30 pixels from the bottomw and it is going to display. */
+@-webkit-keyframes fadeout{   /* creating the animations - fadein */
+    from {bottom: 30px; opacity: 1;} /* it will then go all the way to 30 pixels from the bottomw and it is going to display. */
+    to {bottom:0; opacity: 0;} /* it will start off at zero opacity = not going to display  */
+}   /* these fadeout ones will be in reverse of the fade in */
+@keyframes fadeout{   /* creating the animations - fadein */
+    from {bottom: 30px; opacity: 1;} /* it will then go all the way to 30 pixels from the bottomw and it is going to display. */
+    to {bottom:0; opacity: 0;} /* it will start off at zero opacity = not going to display  */
+} 
+    /* 
+    - these fadeout ones will be in reverse of the fade in. 
+    - Animation section is all set.
+    - We will now remove the outside border around this whole container.
+        - go back to the container section way at the top on code line 12. - for me, I will just comment it out.
+    - test how your tip calculator looks on different devices using this website: http://mattkersley.com/responsive/.
+        - it looks ok from size 480 and upperwards
+        - will need to make some adjustments for 240 and 320 as my user icon and dollar sign looks cut off but still on appears on the same line unlike the tutorial video's example.
+    */
+
+/* to fix the issue w/ from my test on line 120, will need to add a media query */
+@media(max-width:480px){
+    .calculator input{ /* made the input box smaller so the button box will be made a bit bigger. My adjustments are different from the tutorials based on my 50px images.  */
+      width: 70%;     
+    }
+    .calculator button{ /* My adjustments are different from the tutorials based on my 50px images.  */
+        width: 30%;     
+    }
 }
-@keyframes fadeint{   /* creating the animations - fadein */
-    from{bottom:0; opacity: 0;} /* it will start off at zero opacity = not going to display  */
-    to {bottom: 30px; opacity: 1;} /* it will then go all the way to 30 pixels from the bottomw and it is going to display. */
+@media(max-width:320px){
+    .calculator input{ /* made the input box smaller so the button box will be made a bit bigger. My adjustments are different from the tutorials based on my 50px images.  */
+      width: 40%;     
+    }
 }
+/* commenting this out since I doubt anyone would view it at 240 px, but here if I need to play around with it.
+@media(max-width:240px){
+    .calculator input{ /* made the input box smaller so the button box will be made a bit bigger  
+      width: 90%;     
+    }
+} 
+
+This is the end of the css section.*/

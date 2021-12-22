@@ -5,7 +5,7 @@ const amount = document.getElementById("amount");
 
 calculate = () => { //using arrow function
   const tip = ((amount.value * quality.value) / (guests.value)).toFixed(2); // .toFixed(2) = return only 2 decimal places
-  if(tip === "NaN"){
+  if(tip === "NaN"){ // if not a number (NaN) then display $0 tip 
     tipAmount.innerHTML = "Tip $0 each";
     showTipAmount();
   }
@@ -20,8 +20,8 @@ showTipAmount = () => {
   var x = document.getElementById("tip-amount");
   // Add the "show" class to DIV
   x.className = "show";
-  // After 3 seconds, remove the show class from DIV
-  setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+  // After 5 seconds, remove the show class from DIV
+  setTimeout(function(){ x.className = x.className.replace("show", ""); }, 5000); /* tutorial has 3000milliseconds but I changed mine to 5000 milliseconds   */
 }
 /* 
 - { x.className = x.className.replace("show", "") will replaced show w/ an empty string

@@ -35,3 +35,45 @@ body{
     cursor: pointer;
     border-radius: 50%;
 }
+.calculator{ /* this is the calculator box */
+    border: 1px solid rgb(17, 13, 44);
+    background-color: rgb(237, 226, 240); /* might consider making this box transparent...debating*/
+    border-radius: 5px;
+    width: 400px; /* tutorial used 400px */
+    margin: auto; /* this will place it in the middle */
+    padding: 0 25px;
+    font-size: 1rem;
+    font-weight: 100; /* this is the lowest setting */
+    box-shadow: 0 2px 4px 0 black (0, 0, 0, 0.5);
+}
+.calculator input{ /* where user input their amount and number of guest*/
+    box-sizing: border-box;
+    width: 70%; /* tutorial used 90% but that would cover img*/
+    padding: 8px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.calculator button {
+    width: 20%; /* tutorial used 10% but that would cover img */
+    padding: 8px;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    background-color: whitesmoke;
+}
+.calculator button:hover{ /* hover effect*/
+    background-color: rgba(0, 0, 0, 0.1); /* this will change the button's color when you hover over it*/
+}
+#quality{
+    width: 100%;
+    padding: 8px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+}

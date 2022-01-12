@@ -169,6 +169,7 @@ Project Link: [https://github.com/xeemv/tip-calculator](https://xeemv.github.io/
 * <a href="https://www.youtube.com/watch?v=I4tNOpNIU5Q">codefoxx's YouTube tutorial: #10 of 25 Beginner Projects - HTML, CSS, & JavaScript - Tip Calculator ( Responsive Design )</a>
 * <a href="https://github.com/iamcodefoxx/TipCalculator">codefoxx's github repo.</a>
 * <a href="http://mattkersley.com/responsive/">Responsive Web Design Testing Tool</a>
+* <a href="https://www.canva.com/photos/free/">Canva free stock photos</a>
 * []()
 * []()
 
